@@ -433,6 +433,12 @@ p {
 }
 
 /* MediaQuery For Navbar */
+@media (max-width: 1080px) {
+  .navbar-container {
+    padding: 0px 40px;
+  }
+}
+
 @media (max-width: 768px) {
 
   .navbar-container {
@@ -446,6 +452,35 @@ p {
   .menu-icon {
     display: flex;
     margin-right: 25px;
+  }
+
+  .menu-sidebar {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 50px 10px;
+    width: min(75vw, 400px);
+    height: 100vh;
+    outline: 0px;
+    background-color: var(--lightest-navy);
+    box-shadow: -10px 0px 30px -15px rgba(2, 12, 27, 0.7);
+    z-index: 9;
+    transition: var(--transition);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .navbar-container {
+      height: var(--nav-scroll-height);
+      transform: translateY(0px);
+      background-color: rgba(10, 25, 47, 0.85);
+      box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
   }
 }
 
