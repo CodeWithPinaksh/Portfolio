@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+
+    <!-- Title Here -->
+    <title>Parth Patel</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/P_logo.png" />
+
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar-container">
+      <div class="navbar">
+        <div class="logo-box">
+          <a href="#">
+            <img src="assets/P_logo.png" alt="Logo" class="logo" />
+          </a>
+        </div>
+        <div class="navbar-items">
+          <ol>
+            <li style="transition-delay: 0ms;" class="navbar-item">
+              <a href="#about" class="navbar-link">About</a>
+            </li>
+            <li style="transition-delay: 0ms;" class="navbar-item">
+              <a href="#" class="navbar-link">Experience</a>
+            </li>
+            <li style="transition-delay: 0ms;" class="navbar-item">
+              <a href="#" class="navbar-link">Work</a>
+            </li>
+            <li style="transition-delay: 0ms;" class="navbar-item">
+              <a href="#" class="navbar-link">Contact</a>
+            </li>
+          </ol>
+          <div class="navbar-item" style="transition-delay: 400ms;">
+            <a class="resume-btn" href="#" target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="menu-icon" style="transition-delay: 400ms;">
+      <button id="hamburger-menu" class="hamburger-menu" onclick="showSidebar()">
+        <div class="ham-box" id="ham-box">
+          <div class="ham-box-inner"></div>
+        </div>
+      </button>
+    </div>
+    <div id="menu-container" class="menu-container">
+      <div class="menu">
+        <aside class="menu-sidebar" tabindex="-1" aria-hidden="true">
+          <nav class="menu-nav">
+            <ol>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#">Experience</a>
+              </li>
+              <li>
+                <a href="#">Work</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ol>
+            <a href="#" class="resume-link">Resume</a>
+          </nav>
+        </aside>
+      </div>
+    </div>
+
+    <!-- Left-Side Element -->
+    <div class="left-side-element" orientation="left">
+      <ul>
+        <li>
+          <a href="#" aria-lable="GitHub" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-lable="Instagram" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-lable="Twitter" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><title>Twitter</title><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-lable="Linkedin" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><title>Linkedin</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-lable="CodePen" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-codepen"><title>CodePen</title><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- Right-Side Element -->
+    <div class="right-side-element" orientation="right">
+      <div class="email">
+        <a href="#">parth.patel00@outlook.com</a>
+      </div>
+    </div>
+
+
+    <!-- Main Content -->
+    <div id="content">
+      <main class="page-main-container">
+        <section class="hero-section">
+          <div class="main-text" style="transition-delay:100ms;">
+            <h1>Hi, my name is</h1>
+          </div>
+          <div class="main-text" style="transition-delay:200ms;">
+            <h2 class="big-heading">Parth Patel.</h2>
+          </div>
+          <div class="main-text" style="transition-delay:300ms;">
+            <h3 class="big-heading">I build things for the web.</h3>
+          </div>
+          <div class="main-text" style="transition-delay:400ms;">
+            <p>
+              I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at
+              <a href="#" target="_blank" rel="noreferrer"> Upstatement</a>.
+            </p>
+          </div>
+          <div class="main-text" style="transition-delay:500ms;">
+            <a class="email-link" target="_blank" rel="noreferrer" href="#">Check out my course!</a>
+          </div>
+        </section>
+
+        <section id="about" class="about-section" data-sr-id="0" style="visibility:visible;opacity:1;transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transition:opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;">
+          <h2 class="numbered-heading">About Me</h2>
+          <div class="inner">
+            <div class="about-text">
+              <div>
+                <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
+                <p>
+                  Fast-forward to today, and I’ve had the privilege of working at
+                  <a href="#" rel="noopener noreferrer" target="_blank">
+                    an advertising agency
+                  </a>
+                  ,
+                  <a href="#" rel="noopener noreferrer" target="_blank">
+                    a start-up
+                  </a>
+                  ,
+                  <a href="#" rel="noopener noreferrer" target="_blank">
+                    a huge corporation
+                  </a>
+                  , and
+                  <a href="#" rel="noopener noreferrer" target="_blank">
+                    a student-led design studio
+                  </a>
+                  . My main focus these days is building accessible, inclusive products and digital experiences at
+                  <a href="#" rel="noopener noreferrer" target="_blank">
+                    Upstatement
+                  </a>
+                  for a variety of clients.
+                </p>
+                <p>
+                  I also recently
+                  <a href="#" rel="noopener noreferrer" target="_blank">
+                    launched a course
+                  </a>
+                  that covers everything you need to build a web app with the Spotify API using Node & React.
+                </p>
+                <p>Here are a few technologies I’ve been working with recently:</p>
+              </div>
+              <ul class="skills-list">
+                <li>
+                  JavaScript (ES6+)
+                </li>
+                <li>
+                  TypeScript
+                </li>
+                <li>
+                  React
+                </li>
+                <li>
+                  Eleventy
+                </li>
+                <li>
+                  Node.js
+                </li>
+                <li>
+                  WordPress
+                </li>
+              </ul>
+            </div>
+            <div class="about-pic">
+              <div class="wrapper">
+                <div class="image-wrapper gatsby-image-wrapper" data-gatsby-image-wrapper>
+                  <div class="filter" style="max-width:500px;display:block;">
+                    <img src="assets/parth.jpg" alt role="presentation" aria-hidden="true" style="max-width:100%;display:block;position:static;" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+      <footer class="footer">
+        <div class="social-links">
+          <ul>
+            <li>
+              <a href="#" aria-lable="GitHub" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-lable="Instagram" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-lable="Twitter" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><title>Twitter</title><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-lable="Linkedin" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><title>Linkedin</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-lable="CodePen" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-codepen"><title>CodePen</title><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-credit">
+          <a href="#" rel="noopener noreferrer" target="_blank">
+            <div >
+              Designed & Built by Parth Patel
+            </div>
+            <div class="github-stats">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><title>Star</title><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <span>4,784</span>
+              </span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-branch"><title>Git Fork</title><line x1="6" y1="3" x2="6" y2="15"></line><circle cx="18" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><path d="M18 9a9 9 0 0 1-9 9"></path></svg>
+                <span>2,187</span>
+              </span>
+            </div>
+          </a>
+        </div>
+      </footer>
+    </div>
+    <!-- Custom script -->
+    <script src="static/js/app.js" charset="utf-8"></script>
+  </body>
+</html>
